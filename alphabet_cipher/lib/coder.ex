@@ -1,7 +1,7 @@
 defmodule AlphabetCipher.Coder do
 
   def encode(keyword, message) do
-    "encodeme"
+    "hola"
   end
 
   def decode(keyword, message) do
