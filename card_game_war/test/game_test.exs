@@ -1,6 +1,7 @@
 defmodule CardGameWar.GameTest do
   use ExUnit.Case
-
+  import CardGameWar.Game
+ 
   test "the highest rank wins the cards in the round" do
     flunk("not implemented")
   end

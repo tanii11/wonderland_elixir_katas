@@ -18,9 +18,9 @@ defmodule AlphabetCipher.CoderTest do
 
   test "Can extract the secret keyword given an encrypted message and the original message" do
     assert "scones" ==
-           decipher("hcqxqqtqljmlzhwiivgbsapaiwcenmyu", "packmyboxwithfivedozenliquorjugs")
+           deciphaler("hcqxqqtqljmlzhwiivgbsapaiwcenmyu", "packmyboxwithfivedozenliquorjugs")
     assert "vigilance" == 
-           decipher("opkyfipmfmwcvqoklyhxywgeecpvhelzg", "thequickbrownfoxjumpsoveralazydog")
+           deciphaler("opkyfipmfmwcvqoklyhxywgeecpvhelzg", "thequickbrownfoxjumpsoveralazydog")
   end
 
 end

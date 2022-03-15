@@ -9,5 +9,11 @@ defmodule CardGameWar.Game do
       {suit, rank}
     end
   end
+  def compare() do 
+  cards = cards()
+  
 
+  end
+
+  
 end
